@@ -1,9 +1,9 @@
 #writen by Talla 
 #coding : utf-8
-import os
+
 from tkinter import *
 from tkinter.messagebox import showwarning
-#os.chdir("/home/mike/Documents/projet")
+
 def decimalBinary(value_10) :
     bin = list()
     if int(value_10) == 0 :
@@ -247,4 +247,3 @@ first_menu.add_command(label="Quitter",command=window.quit)
 main_menu.add_cascade(label="Options",menu=first_menu)
 window.config(menu=main_menu)
 window.mainloop()
-os.system("pause")
